@@ -8,7 +8,7 @@ import os
 import shutil
 
 dataDir='..'
-dataType='val2014'
+dataType='val2014' # change to 'train2014' to extract another set
 annFile='%s/annotations/instances_%s.json'%(dataDir,dataType)
 
 coco=COCO(annFile)	# load database
